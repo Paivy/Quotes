@@ -1,0 +1,8 @@
+<quote-form (addQuote)="addNewQuote($event)"></quote-form>
+<div *ngFor="let quote of quotes; let i = index">
+  <p>{{ quote.author }}</p>
+  <p>{{ quote.name }}</p>
+  <p>{{ quote.description }}</p>
+  <button (click)="addLikes(i)">Like {{ quote.showLikes }}</button>
+  <button (click)="addDislikes(i)">Dislike {{ quote.showDislikes }}</button>
+</div>
