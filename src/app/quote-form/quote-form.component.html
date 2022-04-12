@@ -1,5 +1,5 @@
 <form (ngSubmit)="submitQuote()" #quoteForm="ngForm">
-  <div class="form-group">
+  <div class="form-group" style="width: 500px; margin: auto">
     <label for="name">Your Name</label>
     <input
       id="name"
@@ -11,7 +11,7 @@
     />
   </div>
 
-  <div class="form-group">
+  <div class="form-group" style="width: 500px; margin: auto">
     <label for="description">Quote</label>
     <textarea
       id="description"
@@ -22,7 +22,7 @@
       [(ngModel)]="newQuote.description"
     ></textarea>
   </div>
-  <div class="form-group">
+  <div class="form-group" style="width: 500px; margin: auto">
     <label for="author">Quote Author</label>
     <input
       id="author"
