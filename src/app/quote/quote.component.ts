@@ -9,16 +9,30 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(
       0,
-      'Paivy',
       'Life is like a bicycle to keep your balance you must keep moving',
+      'Paivy',
       'Albert Einstein',
       new Date()
     ),
     new Quote(
       1,
-      'Paivy',
-      'Life is like a bicycle to keep your balance you must keep moving',
-      'Albert Einstein',
+      'You will face many defeats in life but never let yourself be defeated',
+      'Wendy',
+      'Maya Angelou',
+      new Date()
+    ),
+    new Quote(
+      2,
+      'Act as if what you do make a difference.It does',
+      'Dante',
+      'William James',
+      new Date()
+    ),
+    new Quote(
+      3,
+      'The future belongs to those who see the beauty of their dreams',
+      'Victor',
+      'Eleanor Roosevelt',
       new Date()
     ),
   ];
