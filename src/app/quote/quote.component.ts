@@ -48,6 +48,16 @@ export class QuoteComponent implements OnInit {
   addDislikes(index: number) {
     this.quotes[index].showDislikes++;
   }
+  deleteQuote(index: number) {
+    let toDelete = confirm(
+      `Are you sure you want to delete ${this.quotes[index].name}`
+    );
+
+    if (toDelete) {
+      this.quotes.splice(index, 1);
+      // this.alertService.alertMe('Quote has been deleted');
+    }
+  }
   constructor() {}
 
   ngOnInit(): void {}
