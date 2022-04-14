@@ -6,9 +6,8 @@ form,
   align-items: center;
   /* margin: 5px; */
   padding: 10px;
-
 }
-form{
-    border: 2px solid black;
-    margin: 50px;
+form {
+  border: 2px solid rgb(253, 240, 53);
+  margin: 50px;
 }
