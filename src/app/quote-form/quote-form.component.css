@@ -1,0 +1,14 @@
+form,
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 5px; */
+  padding: 10px;
+
+}
+form{
+    border: 2px solid black;
+    margin: 50px;
+}
