@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid text-white">
   <div class="col-sm">
     <quote-form (addQuote)="addNewQuote($event)"></quote-form>
   </div>
@@ -13,6 +13,7 @@
       <button (click)="addDislikes(i)" class="btn btn-warning">
         Dislike {{ quote.showDislikes }}
       </button>
+      <button class="btn btn-outline-danger" (click)='deleteQuote(i)'>Delete Goal</button>
     </div>
   </div>
 </div>
