@@ -1,0 +1,10 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .col-sm{
+ display: flex; flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+} */
